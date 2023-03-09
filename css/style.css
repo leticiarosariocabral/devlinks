@@ -143,13 +143,12 @@ footer{
   padding: 24px 0;
   font-size: 14px;
 }
-
 /* Media Queries*/
 @media (min-width: 700px){
   :root{
-    --bg-url: url(./assets/bg-desktop.jpg);
+    --bg-url: url(/assets/bg-desktop.jpg);
   }
   .light{
-    --bg-light: url(./assets/bg-desktop-light.jpg);
+    --bg-url: url(/assets/bg-desktop-light.jpg);
   }
 }
