@@ -73,10 +73,16 @@ color: var(--text-color);
    animation: slide-out 0.4s;
    -webkit-animation: slide-out 0.4s;
 }
+
 .light #switch button{
   animation: slide-in 0.4s forwards;
   /*mantemaspropriedadesdefinidasnoslide-in*/;
-
+}
+#switch button:hover{
+  outline: 8px solid var(--highlight-color);
+}
+.light #switch button:hover{
+  outline: 8px solid var(--highlight-color) ;
 }
 #switch span{
   display: block;
